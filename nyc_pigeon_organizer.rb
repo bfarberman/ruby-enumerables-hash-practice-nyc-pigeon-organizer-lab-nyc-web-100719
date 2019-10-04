@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(pigeon_data)
   pigeon_list = {}
-  pigeon_data.each do |element_hash, element|
-    element_hash.each do |array_of_pigeons, values|
+  pigeon_data.each do |element, element_hash|
+    element_hash.each do |values, array_of_pigeons|
       array_of_pigeons.each do |name|
         if pigeon_list[name]
           if pigeon_list[name][element]
