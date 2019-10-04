@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(pigeon_data)
       pigeon_array.each do |name|
         if pigeon_list[name]
           if pigeon_list[name][property]
-            pigeon_list[name][property] << 
+            pigeon_list[name][property] << values.to_s 
+            
   
