@@ -6,8 +6,7 @@ def nyc_pigeon_organizer(pigeon_data)
         if pigeon_list[name]
           if pigeon_list[name][element]
             pigeon_list[name][element] << values.to_s 
-          else
-            pigeon_list[name][element] = [values.to_s]
+          else pigeon_list[name][element] = [values.to_s]
           end
         else
           pigeon_list[name] = {element => [values.to_s]}
