@@ -7,5 +7,5 @@ def nyc_pigeon_organizer(pigeon_data)
           if pigeon_list[name][property]
             pigeon_list[name][property] << values.to_s 
           else
-            
+            pigeon_list[name][property] 
   
