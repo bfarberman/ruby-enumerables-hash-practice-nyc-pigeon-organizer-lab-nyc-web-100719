@@ -9,6 +9,11 @@ def nyc_pigeon_organizer(pigeon_data)
           else pigeon_list[name][element] = [values.to_s]
         end
       else pigeon_list[name] = {element => [values.to_s]}
+    end
+  end
+end
+end
+
 
 
 
