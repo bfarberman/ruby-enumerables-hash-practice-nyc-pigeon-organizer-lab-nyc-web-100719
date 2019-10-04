@@ -11,5 +11,9 @@ def nyc_pigeon_organizer(pigeon_data)
           end
         else
           pigeon_list[name] = {property => [values.to_s]}
-          
+        end
+      end
+    end
+  end
+  
   
